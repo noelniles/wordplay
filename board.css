@@ -1,0 +1,39 @@
+:root{
+    /* reddish colors for triple and double words
+       blueish colors for triple and double letters
+    */
+    --tripw: #fa6539;
+    --tripl: #93b1c6;
+
+    --dubw:  #fca288;
+    --dubl:  #c7d0d5;
+
+    --normspace: #f5f5f5;
+}
+
+td {
+    height: 40px;
+    width:  40px;
+    text-align: center;
+    background-color: var(--normspace)
+}
+
+.tripw {
+    background-color: var(--tripw);
+}
+
+.tripl {
+    background-color: var(--tripl);
+}
+
+.dubw {
+    background-color: var(--dubw);
+}
+
+.dubl {
+    background-color: var(--dubl);
+}
+
+#star {
+    background-color: var(--dubl);
+}
